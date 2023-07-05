@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    line-height: 1.15;
+}
+.navbar{
+    color: white;
+}
+td{
+    color: rgb(82, 63, 0) !important;
+    vertical-align: middle;
+}
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+a{
+    text-decoration: none;
+    color: white !important;
+}
+a:hover{
+    color: white !important;
+}
+.myicon{
+    width: 35px;
+    border-radius: 50%;
+}
+.collapse a:hover{
+    text-shadow: 2px 2px 2px black !important;
+}
+  
